@@ -14,3 +14,4 @@ Coding Challenge #38 <b>Word Interactor:</b> [Link](https://sphaericactus.github
 
 # Session 3
 <b>RiTa Library:</b> [Link](https://sphaericactus.github.io/Programming-With-Text/Session%203/1-RiTa-Library)
+<b>NLP-Compromise Test:</b> [Link](https://sphaericactus.github.io/Programming-With-Text/Session%20NLP-Compromise-Test)
