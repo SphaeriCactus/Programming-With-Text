@@ -10,6 +10,6 @@ Coding Challenge #37 <b>Diastic Machine:</b> [Link](https://sphaericactus.github
 <b>Integrated RegEx - phone number matching:</b> [Link]() <br>
 <b>Replace() - double words:</b> [Link]() <br>
 <b>Replace() - pig latin translator:</b> [Link]() <br>
-Coding Challenge #120 <b>Word Interactor:</b> [Link]()
+Coding Challenge #38 <b>Word Interactor:</b> [Link]()
 
 # Session 3
