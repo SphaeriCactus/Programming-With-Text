@@ -13,5 +13,5 @@ Coding Challenge #37 <b>Diastic Machine:</b> [Link](https://sphaericactus.github
 Coding Challenge #38 <b>Word Interactor:</b> [Link](https://sphaericactus.github.io/Programming-With-Text/Session%202/CC-38-Word-Interactor)
 
 # Session 3
-<b>RiTa Library:</b> [Link](https://sphaericactus.github.io/Programming-With-Text/Session%203/1-RiTa-Library)
+<b>RiTa Library:</b> [Link](https://sphaericactus.github.io/Programming-With-Text/Session%203/1-RiTa-Library) <br>
 <b>NLP-Compromise Test:</b> [Link](https://sphaericactus.github.io/Programming-With-Text/Session%20NLP-Compromise-Test)
