@@ -10,6 +10,6 @@ Coding Challenge #37 <b>Diastic Machine:</b> [Link](https://sphaericactus.github
 <b>Integrated RegEx - phone number matching:</b> [Link](https://sphaericactus.github.io/Programming-With-Text/Session%202/6-Integrated-RegEx-phone-number-matching/) <br>
 <b>Replace() - double words:</b> [Link](https://sphaericactus.github.io/Programming-With-Text/Session%202/9.1-replace()-double-words/) <br>
 <b>Replace() - pig latin translator:</b> [Link](https://sphaericactus.github.io/Programming-With-Text/Session%202/9.2-replace()-pig-latin-translator) <br>
-Coding Challenge #38 <b>Word Interactor:</b> [Link]()
+Coding Challenge #38 <b>Word Interactor:</b> [Link](https://sphaericactus.github.io/Programming-With-Text/Session%202/CC-38)-Word-Interactor)
 
 # Session 3
