@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<script language = "javascript" type = "text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script>
+		<script language = "javascript" type = "text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+		<script language = "javascript" type = "text/javascript" src = "rita-full.min.js"></script>
+		<script language = "javascript" type = "text/javascript" src = "sketch.js"></script>
+		<link rel = "stylesheet" type = "text/css" href = "style.css">
+		<title>The RiTa.js Library</title>
+	</head>
+
+	<body>
+		<div id="titleHeader">
+			<h1>The RiTa.js Library</h1>
+		</div>
+
+		<div id="main">
+			<div id="inputDiv">
+				<h2>Input</h2>
+				<textarea id="input" type="text" cols=65 rows=7>It was a dark and stormy night. Fluffy unicorns and one rainbow.</textarea>
+			</div>
+
+			<div class="inlineDiv">
+				<h3 class="dropdownHeader">Process:</h3>
+				<select id="posDropdown">
+					<option value="nn">nouns</option>
+					<option value="jj">adjectives</option>
+					<option value="vb">verbs</option>
+				</select>
+			</div>
+			<div class="inlineDiv">
+				<h3 class="dropdownHeader">Process:</h3>
+				<select id="processDropdown">
+					<option value="rhyming">rhyming</option>
+					<option value="similar sounding">similar sounding</option>
+					<option value="random">random</option>
+					<option value="same syllables">same syllables</option>
+				</select>
+			</div>
+
+			<div id="buttonHolder">
+				<button id="submit">Process</button>
+			</div>
+
+			<div id="outputDiv">
+				<h2>Output</h2>
+				<textarea id="output" type="text" cols=65 rows=7 readonly></textarea>
+			</div>
+		<div>
+
+		<div id="footnote">
+			<p>Colour palette from: <a href="https://visme.co/blog/website-color-schemes/">https://visme.co/blog/website-color-schemes/</a> (Elegant Yet Aproachable)</p>
+		</div>
+	</body>
+</html>

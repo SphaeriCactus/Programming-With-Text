@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<script language = "javascript" type = "text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script>
+		<script language = "javascript" type = "text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+		<script language = "javascript" type = "text/javascript" src = "sketch.js"></script>
+		<link rel = "stylesheet" type = "text/css" href = "style.css">
+	</head>
+
+	<body>
+		<div id="titleHeader">
+			<h1>Replace()</h1>
+			<h3>Pig Latin Translator</h3>
+		</div>
+
+		<div id="main">
+			<div id="inputDiv">
+				<h2>Input Text</h2>
+				<textarea id="input" type="text" cols=65 rows=7></textarea>
+			</div>
+
+			<div id="dialectDiv">
+				<h3 id="dialect">Dialect:</h3>
+				<select id="dropdown">
+					<option value="yay">yay</option>
+					<option value="way">way</option>
+					<option value="hay">hay</option>
+					<option value="ay">ay</option>
+				</select>
+			</div>
+
+			<div id="buttonHolder">
+				<button id="submit">Translate</button>
+			</div>
+
+			<div id="outputDiv">
+				<h2>Translated Text</h2>
+				<textarea id="output" type="text" cols=65 rows=7 readonly></textarea>
+			</div>
+		<div>
+
+		<div id="footnote">
+			<p>Colour palette from: <a href="https://visme.co/blog/website-color-schemes/">https://visme.co/blog/website-color-schemes/</a> (Elegant Yet Aproachable)</p>
+		</div>
+	</body>
+</html>

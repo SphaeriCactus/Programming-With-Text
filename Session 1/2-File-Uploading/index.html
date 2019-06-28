@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<script language = "javascript" type = "text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script>
+		<script language = "javascript" type = "text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+		<script language = "javascript" type = "text/javascript" src = "sketch.js"></script>
+		<script
+			src="http://code.jquery.com/jquery-3.4.1.min.js"
+			integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			crossorigin="anonymous">
+		</script>
+		<link rel = "stylesheet" type = "text/css" href = "style.css">
+	</head>
+	<script type = "text/javascript">
+		$(document).ready(function() {
+			let i = $("input");
+			let content;
+
+			i.change(function(d){
+				let file = d.target.files[0];
+
+				let reader = new FileReader();
+		        reader.readAsText(file);
+		        reader.onload = function(e) {
+		            content = e.target.result.toString();
+					$("#iframe").attr("srcdoc", content);
+		        };
+			});
+		});
+	</script>
+	<body>
+		<h1>Getting Text from the User</h1>
+		<h3>File Upload</h3>
+
+		<iframe id="iframe" width=800px height=400px></iframe>
+		<p>Please select a html file:</p>
+		<input type="file" accept="text/html" id="input"></input>
+	</body>
+</html>

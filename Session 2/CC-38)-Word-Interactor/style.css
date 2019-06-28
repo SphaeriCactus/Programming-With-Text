@@ -1,0 +1,130 @@
+body {
+	font-family: "Trebuchet MS";
+	background-color: #EEE2DC;
+	color: #123C69;
+	text-align: center;
+}
+
+h1 {
+	font-family: "Century Gothic";
+}
+
+h1, h2 {
+	line-height: 20px;
+}
+
+textarea {
+	resize: none;
+	font-family: "Trebuchet MS";
+	font-size: 20px;
+	padding: 5px;
+}
+
+textarea:focus {
+	outline: #BAB2B5 solid 1px;
+}
+
+.wordSpan {
+	background-color: #EEE2DC;
+}
+
+.wordSpan:hover {
+	background-color: rgba(190, 190, 190, 0.5);
+	cursor: pointer;
+}
+
+.wordSpan:active {
+	background-color: rgba(190, 190, 190, 0.9);
+}
+
+#dialect {
+	display: inline;
+}
+
+#dialectDiv {
+	margin: 10px;
+}
+
+#outputDiv p {
+	font-size: 20px;
+}
+
+#submit {
+	margin-top: 10px;
+}
+
+#titleHeader {
+	border-bottom: 2px solid #EDC7B7;
+}
+
+#footnote {
+	border-top: 2px solid #EDC7B7;
+	font-size: 13px;
+	font-style: italic;
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+	height: 30px;
+}
+
+a {
+	color: #AC3B61;
+}
+
+#dropdown {
+	width: 70px;
+    height: 40px;
+	padding: 5px;
+	background: linear-gradient(to bottom, #F2D5C9 0%, #EDC7B7 100%);
+    border: none;
+    border-radius: 10px;
+    border-bottom: 4px solid #CFAEA0;
+    color: #123C69;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#dropdown:focus {
+	outline: 0;
+}
+
+#dropdown option {
+	padding: 5px;
+	background-color: #EDC7B7;
+    color: #123C69;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+button {
+	width: 130px;
+	height: 40px;
+	background: linear-gradient(to bottom, #B65475 0%, #AC3B61 100%); /* W3C */
+	border: none;
+	border-radius: 10px;
+	position: relative;
+	border-bottom: 4px solid #973455;
+	color: #EAE7DC;
+	font-weight: 600;
+	text-shadow: 0 2px 1px rgba(0,0,0,.4);
+	font-size: 18px;
+	text-align: center;
+	box-shadow: 0px 5px 0px 0px rgba(0,0,0,.2);
+	cursor: pointer;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+button:active {
+	box-shadow: 0px 2px 0px 0px rgba(0,0,0,.2);
+	top: 3px;
+}
+
+button:focus {
+	outline:0;
+}

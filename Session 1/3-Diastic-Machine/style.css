@@ -1,0 +1,28 @@
+body {
+	font-family: "Century Gothic";
+}
+
+h1, h2 {
+	line-height: 20px;
+}
+
+p, input, textarea {
+	font-family: "Trebuchet MS";
+}
+
+textarea {
+	display: block;
+}
+
+#preview {
+	padding-left: 5px;
+	background-color: #EBF3F5;
+	border: 1px solid black;
+	color: #888;
+	margin-bottom: 10px;
+}
+
+#preview-label {
+	text-decoration: underline;
+	font-style: italic;
+}

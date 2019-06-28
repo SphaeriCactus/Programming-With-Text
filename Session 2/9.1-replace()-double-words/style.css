@@ -1,0 +1,11 @@
+body {
+	font-family: "Century Gothic";
+}
+
+h1, h2 {
+	line-height: 20px;
+}
+
+p, input, textarea {
+	font-family: "Trebuchet MS";
+}
